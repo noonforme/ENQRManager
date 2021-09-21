@@ -30,7 +30,7 @@ def adduser():
     usrnm = ''.join(secrets.choice(string.ascii_uppercase + string.digits) for _ in range(9))
 
     if pavrd:
-        cur.execute("INSERT INTO IIA (first_name, last_name, username, password) VALUES (?, ?, ?, ?)",
+        cur.execute("INSERT INTO users (first_name, last_name, username, password) VALUES (?, ?, ?, ?)",
                     (str(vards), str(pavrd), str(usrnm), str(pswrd)))
         con.commit()
 
