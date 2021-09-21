@@ -8,8 +8,7 @@ import qrcode
 from PIL import ImageQt
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtGui import QPixmap, QImage
-from PyQt5.QtWidgets import QWidget, QHBoxLayout, QVBoxLayout, QTreeWidget, QTreeWidgetItem, QLabel, QGroupBox, \
-    QPushButton, QInputDialog
+from PyQt5.QtWidgets import QWidget, QHBoxLayout, QVBoxLayout, QTreeWidget, QTreeWidgetItem, QLabel, QGroupBox, QPushButton, QInputDialog
 from fbs_runtime.application_context.PyQt5 import ApplicationContext
 
 
