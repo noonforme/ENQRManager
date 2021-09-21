@@ -71,6 +71,7 @@ if __name__ == '__main__':
 
     # User list
     userlist = QTreeWidget()
+    userlist.setSortingEnabled(True)
     userlist.itemClicked.connect(listass)
     userlist.setColumnCount(4)
     userlist.setHeaderLabels(['Vardas', 'Pavardė', 'Prisijungimo vardas', 'Slaptažodis'])
