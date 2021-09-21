@@ -1,0 +1,7 @@
+{
+  "appname": "QRManager",
+  "database": "network.sqlite",
+  "tablename": "IIA",
+  "networkname": "labaskatu",
+  "defaultqr": "https://www.palemonas.kaunas.lm.lt/"
+}
